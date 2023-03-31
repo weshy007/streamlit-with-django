@@ -1,5 +1,7 @@
 serve:
 	python3 manage.py runserver
+stream:
+	streamlit run main.py
 migrations:
 	python3 manage.py makemigrations
 migrate:
