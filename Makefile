@@ -1,4 +1,4 @@
-serve:
+make serve:
 	python3 manage.py runserver
 stream:
 	streamlit run main.py

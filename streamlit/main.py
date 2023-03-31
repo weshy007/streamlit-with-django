@@ -1,14 +1,16 @@
 import streamlit as st
 
+
 def login_page():
     pass
+
 
 def register():
     pass
 
+
 def log_out():
     pass
-
 
 
 def load_view():
@@ -23,7 +25,6 @@ def load_view():
         register()
     elif add_selectbox == 'Log out':
         log_out()
-
 
 
 if __name__ == '__main__':
