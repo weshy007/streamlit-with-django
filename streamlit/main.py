@@ -10,8 +10,9 @@ def login_page(applicant_token):
         st.write("Login content and login below")
     else:
         with st.form("my_form"):
-            email = st.text_input(label="Email")
-            password = st.text_input(label="Password", type="password")
+            email = st.text_input(label="email")
+            password = st.text_input(label="password", type="password")
+
             submit_res = st.form_submit_button(label="Login")
 
             if submit_res:
